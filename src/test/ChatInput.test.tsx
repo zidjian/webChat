@@ -8,7 +8,7 @@ import { render, screen } from "@testing-library/react";
 import { ChatInput } from "../components/ChatInput";
 
 describe("ChatMessage.tsx", () => {
-    test("Deberia verificar que aparezcan los elementos del componente", () => {
+    test("Debería verificar que aparezcan los elementos del componente", () => {
         render(
             <ChatInput 
                 handleSendMessage={() => {}} 

@@ -8,7 +8,7 @@ import { render, screen } from "@testing-library/react";
 import { ChatMessage } from "../components/ChatMessage";
 
 describe("ChatMessage.tsx", () => {
-    test("Deberia verificar que aparezcan los mensajes", () => {
+    test("Debería verificar que aparezcan los mensajes", () => {
         render(<ChatMessage message="Test message" sender="User" local={true} />);
 
         const message = screen.getByText(/Test message/i);
